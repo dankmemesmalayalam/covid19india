@@ -6,10 +6,11 @@ import './App.scss';
 import Home from './components/home';
 import Navbar from './components/navbar';
 import Links from './components/links';
+import HelpLine from './components/helpline';
 import Summary from './components/summary';
 import Cluster from './components/cluster';
-import FAQ from './components/faq';
-import Banner from './components/banner';
+import Tweets from './components/tweets';
+import Contribute from './components/contribute';
 
 const history = require('history').createBrowserHistory;
 
@@ -26,9 +27,11 @@ function App() {
             <Switch location={location}>
               <Route exact path="/" render={(props) => <Home {...props}/>} />
               <Route exact path="/links" render={(props) => <Links {...props}/>} />
+              <Route exact path="/helpline" render={(props) => <HelpLine {...props}/>} />
               <Route exact path="/summary" render={(props) => <Summary {...props}/>} />
-              <Route exact path="/clusters" render={(props) => <Cluster {...props}/>} />
-              <Route exact path="/faq" render={(props) => <FAQ {...props}/>} />
+              <Route exact path="/networkmap" render={(props) => <Cluster {...props}/>} />
+              <Route exact path="/tweets" render={(props) => <Tweets {...props}/>} />
+              <Route exact path="/contribute" render={(props) => <Contribute {...props}/>} />
             </Switch>
           </div>
         )}
@@ -45,9 +48,9 @@ function App() {
           <a className="button" href="https://bit.ly/patientdb" target="_noblank">
             <Icon.Database /><span>Crowdsourced Patient Database&nbsp;</span>
           </a>
-          <a href="https://bit.ly/covid19crowd" className="button telegram" target="_noblank">
+          <a href="https://www.facebook.com/groups/dmmalayalam/" className="button telegram" target="_noblank">
             <Icon.MessageCircle />
-            <span>Join Telegram to Collaborate!</span>
+            <span>Join Dank Memes Malayalam</span>
           </a>
         </div>
       </footer>
