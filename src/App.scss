@@ -971,7 +971,7 @@ footer {
 }
 
 @media (max-width: 769px) {
-  .ChoroplethMap, .TimeSeries, table, .header, .Level, .timeseries-header, .TimeSeries-Parent, .Links, .HelpLine, .Tweets, .Minigraph, .Summary, .FAQ {
+  .ChoroplethMap, .TimeSeries, table, .header, .Level, .timeseries-header, .TimeSeries-Parent, .Links, .Banner, .HelpLine, .Tweets, .Minigraph, .Summary, .FAQ {
     width: calc(100% - 2rem);
   }
   .Home {
@@ -1011,7 +1011,7 @@ footer {
     width: 10rem;
   }
   .Banner {
-    height: 7rem;
+    height: 4rem;
     .snippet {
       width: 100%;
       margin-left: 1rem;
