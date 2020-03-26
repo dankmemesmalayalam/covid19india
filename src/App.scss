@@ -196,17 +196,17 @@ h6 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  line-height: 20px;
+  line-height: 15px;
   font-family: 'Avenir',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   color: $purple;
   background: $purple-light;
   .snippet {
     align-self: center;
-    width: calc(100%-10rem);
+    width: calc(100% - 55rem);
     word-wrap: break-word;
-    padding: 1.5rem;
+    padding: 1.1rem;
     text-align: center;
   }
 }
@@ -971,7 +971,7 @@ footer {
 }
 
 @media (max-width: 769px) {
-  .ChoroplethMap, .TimeSeries, table, .header, .Level, .timeseries-header, .TimeSeries-Parent, .Links, .Banner, .HelpLine, .Tweets, .Minigraph, .Summary, .FAQ {
+  .ChoroplethMap, .TimeSeries, table, .header, .Level, .timeseries-header, .TimeSeries-Parent, .Links, .HelpLine, .Tweets, .Minigraph, .Summary, .FAQ {
     width: calc(100% - 2rem);
   }
   .Home {
