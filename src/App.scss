@@ -198,7 +198,7 @@ h6 {
   justify-content: center;
   line-height: 15px;
   font-family: 'Avenir',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 1rem;
+  font-size: 15px;
   font-weight: 500;
   color: $purple;
   background: $purple-light;
@@ -207,6 +207,7 @@ h6 {
     width: calc(100% - 55rem);
     word-wrap: break-word;
     padding: 1.1rem;
+    ine-height: 1.3;
     text-align: center;
   }
 }
