@@ -25,19 +25,11 @@ function Navbar(props) {
           }}
         />
 
-        <div className="navbar-left">
-          <Link
-            to="/"
-            onClick={() => {
-              setView("Home");
-            }}
-          >
-            <span
-              className={`fadeInUp ${view === "Home" ? "focused" : ""}`}
-              style={{ animationDelay: "0.2s" }}
-            >
-              Home
-            </span>
+       <div className="navbar-left">
+          <Link to="/" onClick={()=>{
+            setView('Home');
+          }}>
+            <span className={`fadeInUp ${view==='Home' ? 'focused' : ''}`} style={{animationDelay: '0.2s'}}>Home</span>
           </Link>
 
           {/* <Link to="/updates" onClick={()=>{
@@ -46,48 +38,34 @@ function Navbar(props) {
             <span className={`fadeInUp ${view==='Updates' ? 'focused' : ''}`} style={{animationDelay: '0.2s'}}>Updates</span>
           </Link>*/}
 
-          <Link
-            to="/clusters"
-            onClick={() => {
-              setView("Clusters");
-            }}
-          >
-            <span
-              className={`fadeInUp ${view === "Network Map" ? "focused" : ""}`}
-              style={{ animationDelay: "0.3s" }}
-            >
-              Clusters
-            </span>
+          {/* <Link to="/networkmap" onClick={()=>{
+            setView('Network Map');
+          }}>
+            <span className={`fadeInUp ${view==='Network Map' ? 'focused' : ''}`} style={{animationDelay: '0.3s'}}>Network Map</span>
+          </Link>*/}
+
+          <Link to="/links" onClick={()=>{
+            setView('Helpful Links');
+          }}>
+            <span className={`fadeInUp ${view==='Helpful Links' ? 'focused' : ''}`} style={{animationDelay: '0.4s'}}>Helpful Links</span>
           </Link>
 
-          <Link
-            to="/links"
-            onClick={() => {
-              setView("Helpful Links");
-            }}
-          >
-            <span
-              className={`fadeInUp ${
-                view === "Helpful Links" ? "focused" : ""
-              }`}
-              style={{ animationDelay: "0.4s" }}
-            >
-              Helpful Links
-            </span>
+          <Link to="/helpline" onClick={()=>{
+            setView('HelpLine');
+          }}>
+            <span className={`fadeInUp ${view==='HelpLine' ? 'focused' : ''}`} style={{animationDelay: '0.5s'}}>Helpline</span>
           </Link>
 
-          <Link
-            to="/faq"
-            onClick={() => {
-              setView("FAQs");
-            }}
-          >
-            <span
-              className={`fadeInUp ${view === "FAQs" ? "focused" : ""}`}
-              style={{ animationDelay: "0.4s" }}
-            >
-              FAQ
-            </span>
+          <Link to="/tweets" onClick={()=>{
+            setView('Contribute');
+          }}>
+            <span className={`fadeInUp ${view==='Tweets' ? 'focused' : ''}`} style={{animationDelay: '0.6s'}}>Tweets</span>
+          </Link>
+          
+          <Link to="/contribute" onClick={()=>{
+            setView('Contribute');
+          }}>
+            <span className={`fadeInUp ${view==='Contribute' ? 'focused' : ''}`} style={{animationDelay: '0.7s'}}>Contribute</span>
           </Link>
         </div>
 
