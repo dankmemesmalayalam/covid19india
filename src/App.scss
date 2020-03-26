@@ -1010,6 +1010,14 @@ footer {
   .last-update {
     width: 10rem;
   }
+  .Banner {
+    height: 7rem;
+    .snippet {
+      width: 100%;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
   a.button {
     width: 10rem;
     svg {
