@@ -429,7 +429,7 @@ table {
   position: relative;
   width: 30rem;
   align-self: center;
-  font-family: 'Avenir',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: 'archia';
   text-transform: uppercase;
   margin-bottom: 1rem;
   margin-top: 2rem;
@@ -474,11 +474,27 @@ table {
         background: $gray-hover;
       }
     }
+    tr:nth-child(odd){
+      background-color: $light;
+      &:hover {
+        background: $gray-hover;
+      }
+    }
     td {
       padding: 0.25rem;
       font-size: 0.9rem;
       border-radius: 5px;
       text-align: right;
+      .deltas {
+        margin-right: 0.25rem;
+        font-size: 11px !important;
+        svg {
+          width: 9px;
+          height: 9px;
+          stroke-width: 3;
+          vertical-align: -0.25px;
+        }
+      }
     }
     td:first-child {
       text-align: left;
@@ -1019,6 +1035,10 @@ footer {
       margin-right: 1rem;
     }
   }
+  table {
+    td {
+      max-width: 6.75rem;
+    }
   a.button {
     width: 10rem;
     svg {
