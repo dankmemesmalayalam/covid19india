@@ -10,6 +10,9 @@ function Links(props) {
     </p>
       <h3>GoK Direct App</h3>
 <p>Get official information regarding the COVID-19 outbreak. Available on <a href="https://play.google.com/store/apps/details?id=com.qkopy.prdkerala">Playstore</a> and <a href="https://apps.apple.com/in/app/gok-direct/id1502436125">Appstore</a>.</p>
+    <h3>Online Therapy or Counseling</h3>
+<p>Indian Association of Clinical Psychologists (IACP) is compiling a list of psychology professionals who can provide Pro Bono telephonic/online counselling and first aid to the persons emotionally affected by COVID-19 pandemic. Visit <a href="https://iacp.in/">iacp.in</a> to know more.
+    </p>
     <h3>Coping During COVID-19</h3>
       <p>  How are you coping with isolation and social distancing? Widespread media reporting of the coronavirus pandemic, changing daily circumstances and uncertainty about the future can give rise to heightened individual and community anxiety.</p>
 <p> <h3>Looking after your mental health in home isolation</h3>
